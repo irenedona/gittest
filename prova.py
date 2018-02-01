@@ -23,8 +23,5 @@ comm = MPI.COMM_WORLD
 worldSize = comm.Get_size()
 rank = comm.Get_rank()
 processorName = MPI.Get_processor_name()
-
-#print ("Process %d started.\n" % (rank))
+print ("Process %d started.\n" % (rank))
 #print ("Running from processor %s, rank %d out of %d processors.\n" % (processorName, rank, worldSize))
-
-#Calculate the slice per worker
