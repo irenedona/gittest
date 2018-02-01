@@ -2,6 +2,7 @@ from mpi4py import MPI
 import sys
 import numpy as np
 
+# Commented line
 
 numberRows = int( sys.argv[1])
 numberColumns = int( sys.argv[2])
